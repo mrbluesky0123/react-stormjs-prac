@@ -12,7 +12,7 @@ import {
 import axios from 'axios';
 import './srd.css';
 // import 'semantic-ui-css/semantic.min.css'
-// import { Button, Header, Image, Modal } from 'semantic-ui-react'
+// import { Button, H`eader, Image, Modal } from 'semantic-ui-react'
 
 class DemoOne extends React.Component {
 	
@@ -27,7 +27,7 @@ class DemoOne extends React.Component {
 	}
 
 	getBatchList = () => {
-		return axios.get('http://127.0.0.1:8080/graph/BTPBATCH001');
+		return axios.get('http://198.13.47.188:8080/graph/BTPBATCH001');
 	}
 	
 	fetchBatchList = async () => {
